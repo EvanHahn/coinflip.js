@@ -1,0 +1,28 @@
+{
+  "name": "coinflip",
+  "version": "0.0.0",
+  "description": "randomly return true or false",
+  "main": "coinflip.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EvanHahn/coinflip.js.git"
+  },
+  "keywords": [
+    "coinflip",
+    "random",
+    "boolean"
+  ],
+  "author": "Evan Hahn <me@evanhahn.com> (http://evanhahn.com)",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/EvanHahn/coinflip.js/issues"
+  },
+  "homepage": "https://github.com/EvanHahn/coinflip.js",
+  "devDependencies": {
+    "lodash.isboolean": "^3.0.1",
+    "mocha": "^2.2.5"
+  }
+}
