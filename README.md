@@ -5,7 +5,7 @@ Randomly return `true` or `false`.
 
 To use in Node/Browserify/Webpack/CommonJS:
 
-```html
+```js
 var coinflip = require('coinflip');
 
 if (coinflip()) {
@@ -13,7 +13,6 @@ if (coinflip()) {
 } else {
   console.log('Tails!');
 }
-</script>
 ```
 
 To use in the browser:
