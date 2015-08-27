@@ -1,6 +1,6 @@
 {
   "name": "coinflip",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "randomly return true or false",
   "main": "coinflip.js",
   "scripts": {
