@@ -1,17 +1,16 @@
-coinflip.js
-===========
+# coinflip.js
 
 Randomly return `true` or `false`.
 
 To use in Node/Browserify/Webpack/CommonJS:
 
 ```js
-var coinflip = require('coinflip');
+const coinflip = require("coinflip");
 
 if (coinflip()) {
-  console.log('Heads!');
+  console.log("Heads!");
 } else {
-  console.log('Tails!');
+  console.log("Tails!");
 }
 ```
 
