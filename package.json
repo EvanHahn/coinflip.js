@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/EvanHahn/coinflip.js",
   "devDependencies": {
-    "lodash.isboolean": "^3.0.1",
-    "mocha": "^2.2.5"
+    "lodash.isboolean": "^3.0.3",
+    "mocha": "^11.7.6"
   }
 }
