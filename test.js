@@ -1,4 +1,4 @@
-import coinflip from "../coinflip.js";
+import coinflip from "./coinflip.js";
 
 import assert from "node:assert";
 import test from "node:test";
