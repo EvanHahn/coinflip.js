@@ -5,12 +5,12 @@ Randomly return `true` or `false`.
 To use in Node/Browserify/Webpack/CommonJS:
 
 ```js
-const coinflip = require('coinflip');
+const coinflip = require("coinflip");
 
 if (coinflip()) {
-  console.log('Heads!');
+  console.log("Heads!");
 } else {
-  console.log('Tails!');
+  console.log("Tails!");
 }
 ```
 
@@ -19,11 +19,11 @@ To use in the browser:
 ```html
 <script src="coinflip.js"></script>
 <script>
-if (coinflip()) {
-  console.log('Heads!');
-} else {
-  console.log('Tails!');
-}
+  if (coinflip()) {
+    console.log("Heads!");
+  } else {
+    console.log("Tails!");
+  }
 </script>
 ```
 

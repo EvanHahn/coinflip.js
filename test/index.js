@@ -1,22 +1,26 @@
-var coinflip = require('..');
+var coinflip = require("..");
 
-var assert = require('assert');
-var test = require('node:test');
+var assert = require("assert");
+var test = require("node:test");
 
-test('coinflip always returns a boolean', function () {
+test("coinflip always returns a boolean", function () {
   for (var i = 0; i < 10000; i++) {
-    assert.equal(typeof coinflip(), 'boolean');
+    assert.equal(typeof coinflip(), "boolean");
   }
 });
 
-test('coinflip eventually returns true', function () {
+test("coinflip eventually returns true", function () {
   while (true) {
-    if (coinflip() === true) { break; }
+    if (coinflip() === true) {
+      break;
+    }
   }
 });
 
-test('coinflip eventually returns false', function () {
+test("coinflip eventually returns false", function () {
   while (true) {
-    if (coinflip() === false) { break; }
+    if (coinflip() === false) {
+      break;
+    }
   }
 });
