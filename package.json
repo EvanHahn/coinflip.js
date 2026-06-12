@@ -20,8 +20,5 @@
   "bugs": {
     "url": "https://github.com/EvanHahn/coinflip.js/issues"
   },
-  "homepage": "https://github.com/EvanHahn/coinflip.js",
-  "devDependencies": {
-    "lodash.isboolean": "^3.0.3"
-  }
+  "homepage": "https://github.com/EvanHahn/coinflip.js"
 }

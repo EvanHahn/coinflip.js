@@ -1,12 +1,11 @@
 var coinflip = require('..');
 
-var isBoolean = require('lodash.isboolean');
 var assert = require('assert');
 var test = require('node:test');
 
 test('coinflip always returns a boolean', function () {
   for (var i = 0; i < 10000; i++) {
-    assert(isBoolean(coinflip()));
+    assert.equal(typeof coinflip(), 'boolean');
   }
 });
 
