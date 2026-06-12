@@ -1,7 +1,7 @@
-var coinflip = require("..");
+import coinflip from "../coinflip.js";
 
-var assert = require("assert");
-var test = require("node:test");
+import assert from "node:assert";
+import test from "node:test";
 
 test("coinflip always returns a boolean", function () {
   for (var i = 0; i < 10000; i++) {

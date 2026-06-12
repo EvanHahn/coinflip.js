@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "randomly return true or false",
   "main": "coinflip.js",
+  "type": "module",
   "scripts": {
     "format": "prettier --write .",
     "test:prettier": "prettier --check .",
