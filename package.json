@@ -4,7 +4,7 @@
   "description": "randomly return true or false",
   "main": "coinflip.js",
   "scripts": {
-    "test": "mocha"
+    "test": "node --test"
   },
   "repository": {
     "type": "git",
@@ -22,7 +22,6 @@
   },
   "homepage": "https://github.com/EvanHahn/coinflip.js",
   "devDependencies": {
-    "lodash.isboolean": "^3.0.3",
-    "mocha": "^11.7.6"
+    "lodash.isboolean": "^3.0.3"
   }
 }
